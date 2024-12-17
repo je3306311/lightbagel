@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1380">
+    <title>lightbagel</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- webfont -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/main_style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- <a href="javascript:return false;"></a> -->
+    <div id="wrap">
+        <div id="header_wrap">
+            <div class="position_box">
+                <div id="header">
+                    <!-- 너비1320/가운데/포지션 -->
+                    <h1 class="logo"><a href="#"><img src="images/main/header/logo.png" alt="logo"></a></h1>
+                    <div id="nav">
+                        <ul class="gnb">
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">SHOP</a></li>
+                            <li><a href="#">EVENT</a></li>
+                            <li><a href="#">COMMUNITY</a></li>
+                        </ul>
+                    </div>
+                    <ul class="util">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#"><img src="images/main/header/bag.svg" alt="bag_icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main_banner">
+                <!-- 너비1920/높이870/가운데/슬라이드 -->
+                <!-- Swiper -->
+                <div class="main_banner_slide">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide_1">
+                                <img src="images/main/main_banner/main_banner_1.png" />
+                                <div class="inner_banner">
+                                    <div class="bagel">
+                                        <img src="images/main/main_banner/bagel.PNG" alt="bagel">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/main/main_banner/main_banner_2.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/main/main_banner/main_banner_3.png" />
+                            </div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <!-- 너비1320/가운데/포지션 기준점 -->
+            </div>
+        </div>
+        <div id="section_1">
+            <!-- about -->
+            <h2>About Us</h2>
+            <div class="about_wrap">
+                <div class="about_img" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="images/main/section_1/about_img.jpg" alt="about_img">
+                </div>
+                <div class="about_text">
+                    <p class="slogan">
+                        라이트 베이글은 누구나 편하게 맛있게
+                        <br>먹을 수 있는 빵을 만들기 위해 고민했습니다.
+                    </p>
+                    <p>
+                        밀가루가 들어가는 빵을 잘 소화하지 못하는 분들,
+                        <br>바쁜 일상 속에 간편하게 먹을 수 있는 건강한 식단을 원하는 분들,
+                        <br>그리고 믿고 먹을 수 있는 안전한 먹거리를 원하는 모든 분들을 위해
+                    </p>
+                    <p>
+                        간편하지만 건강하고 맛있는 빵을 만들기 위한
+                        <br>라이트 베이글의 연구는 계속됩니다.
+                        <br>라이트 베이글이 여러분의 일상에 작은 행복이 되길 바랍니다.
+                    </p>
+                    <div class="more_box">
+                        <a href="#">더 알아보기</a>
+                    </div>
+                    <div class="blueberry">
+                        <img src="images/main/section_1/blueberry.png" alt="blueberry">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section_2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
+
+            <h2>Weekly Best</h2>
+            <h3>지난 일주일동안 가장 많은 사랑을 받은 제품들을 소개합니다.</h3>
+            <ul class="weekly_best">
+                <li>
+                    <div class="product_cover">
+                        <div class="product_img">
+                            <a href="#"><img src="images/main/section_2/product_1.png" alt="product_1"></a>
+                        </div>
+                    </div>
+                    <p class="product_name"><a href="#">블루베리 베이글</a></p>
+                    <p class="description">
+                        블루베리가 빵 사이에 콕콕
+                        <br>상큼함과 달콤함이 터져요!
+                    </p>
+                    <p class="price">3,200원</p>
+                    <div class="icon_wrap">
+                        <div class="heart">
+                            <a href="#"></a>
+                        </div>
+                        <div class="bag">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="product_cover">
+                        <div class="product_img">
+                            <a href="#"><img src="images/main/section_2/product_2.png" alt="product_2"></a>
+                        </div>
+                    </div>
+                    <p class="product_name"><a href="#">크랜베리 베이글</a></p>
+                    <p class="description">
+                        견과류와 깨의 고소함과
+                        <br>크랜베리의 달콤함이 잘 어우러져요!
+                    </p>
+                    <p class="price">2,900원</p>
+                    <div class="icon_wrap">
+                        <div class="heart">
+                            <a href="#"></a>
+                        </div>
+                        <div class="bag">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product_cover">
+                        <div class="product_img">
+                            <a href="#"><img src="images/main/section_2/product_3.png" alt="product_3"></a>
+                        </div>
+                    </div>
+                    <p class="product_name"><a href="#">유기농 통밀 베이글</a></p>
+                    <p class="description">
+                        안전한 유기농 통밀가루,
+                        <br>유기농 설탕만을 사용했어요!
+                    </p>
+                    <p class="price">2,900원</p>
+                    <div class="icon_wrap">
+                        <div class="heart">
+                            <a href="#"></a>
+                        </div>
+                        <div class="bag">
+                            <a href="#"> </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product_cover">
+                        <div class="product_img">
+                            <a href="#"><img src="images/main/section_2/product_4.png" alt="product_4"></a>
+                        </div>
+                    </div>
+                    <p class="product_name"><a href="#">크리미 무화과 베이글</a></p>
+                    <p class="description">
+                        톡톡 터지는 무화과의 식감을 살린
+                        <br>특제 무화과잼의 은은하고 깊은 맛과 향!
+                    </p>
+                    <p class="price">3,800원</p>
+                    <div class="icon_wrap">
+                        <div class="heart">
+                            <a href="#"></a>
+                        </div>
+                        <div class="bag">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <div id="section_3" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Event</h2>
+            <h3>라이트 베이글의 이벤트를 소개합니다.</h3>
+            <!-- Swiper -->
+            <div class="event_slide">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="event_img">
+                                <img src="images/main/section_3/christmas_event.png" alt="christmas_event">
+                            </div>
+                            <div class="event_text">
+                                <p class="date">2024.12.21. - 2024.12.25.</p>
+                                <a href="#">
+                                    <p class="title">
+                                        라이트 베이글과 함께
+                                        <br>행복한 크리스마스 보내세요!
+                                    </p>
+                                </a>
+                                <p>5일간 베이글 전 제품 25% 할인!</p>
+                                <div class="more_box">
+                                    <a href="#">자세히 보기</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="event_img">
+                                <img src="images/main/section_3/christmas_event.png" alt="christmas_event">
+                            </div>
+                            <div class="event_text">
+                                <p class="date">2024.12.21. - 2024.12.25.</p>
+                                <a href="#">
+                                    <p class="title">
+                                        라이트 베이글과 함께
+                                        <br>행복한 크리스마스 보내세요!
+                                    </p>
+                                </a>
+                                <p>5일간 베이글 전 제품 25% 할인!</p>
+                                <div class="more_box">
+                                    <a href="#">자세히 보기</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="event_img">
+                                <img src="images/main/section_3/christmas_event.png" alt="christmas_event">
+                            </div>
+                            <div class="event_text">
+                                <p class="date">2024.12.21. - 2024.12.25.</p>
+                                <a href="#">
+                                    <p class="title">
+                                        라이트 베이글과 함께
+                                        <br>행복한 크리스마스 보내세요!
+                                    </p>
+                                </a>
+                                <p>5일간 베이글 전 제품 25% 할인!</p>
+                                <div class="more_box">
+                                    <a href="#">자세히 보기</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section_4">
+            <div>
+                <a href="#"><img src="images/main/section_4/oliveyoung_emart24.png" alt="oliveyoung_emart24_banner"></a>
+            </div>
+        </div>
+        <div id="section_5" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Best Review</h2>
+            <h3>이 달의 베스트 리뷰를 소개합니다.</h3>
+            <ul class="best_review">
+                <li><a href="#">
+                        <div class="review_img">
+                            <img src="images/main/section_5/review_1.png" alt="review_1">
+                        </div>
+                        <div class="review_text">
+                            <div class="star">
+                                <img src="images/main/section_5/star.svg" alt="star">
+                            </div>
+                            <p>
+                                아침에 간편하게 먹기 좋고 속이 편안해요. 견과류랑 크랜베리 조합이 너무 좋아요. 다른 맛으로 또 구매할게요!
+                            </p>
+                            <div class="date_wrap">
+                                <p class="date">2024. 12. 01.</p>
+                                <p class="id">cherry1**님</p>
+                            </div>
+
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div class="review_img">
+                            <img src="images/main/section_5/review_2.png" alt="review_2">
+                        </div>
+                        <div class="review_text">
+                            <div class="star">
+                                <img src="images/main/section_5/star.svg" alt="star">
+                            </div>
+                            <p>
+                                샌드위치로 해먹는데 빵이 너무 맛있어요! 빵이 부드럽고 향도 좋아요. 재구매 하러 갑니닷!
+                            </p>
+                            <div class="date_wrap">
+                                <p class="date">2024. 12. 20.</p>
+                                <p class="id">pizza**님</p>
+                            </div>
+
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div class="review_img">
+                            <img src="images/main/section_5/review_3.png" alt="review_3">
+                        </div>
+                        <div class="review_text">
+                            <div class="star">
+                                <img src="images/main/section_5/star.svg" alt="star">
+                            </div>
+                            <p>
+                                아침에 간편하게 먹기 좋고 속이 편안해요. 견과류랑 크랜베리 조합이 너무 좋아요. 다른 맛으로 또 구매할게요!
+                            </p>
+                            <div class="date_wrap">
+                                <p class="date">2024. 12. 07.</p>
+                                <p class="id">sunday2**님</p>
+                            </div>
+
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div class="review_img">
+                            <img src="images/main/section_5/review_4.png" alt="review_4">
+                        </div>
+                        <div class="review_text">
+                            <div class="star">
+                                <img src="images/main/section_5/star.svg" alt="star">
+                            </div>
+                            <p>
+                                아침에 간편하게 먹기 좋고 속이 편안해요. 견과류랑 크랜베리 조합이 너무 좋아요. 다른 맛으로 또 구매할게요!
+                            </p>
+                            <div class="date_wrap">
+                                <p class="date">2024. 12. 15.</p>
+                                <p class="id">blue04**님</p>
+                            </div>
+
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
+
+        <div id="section_6">
+            <h2>SNS</h2>
+            <h3>라이트 베이글의 SNS에서 다양한 소식을 받아보세요!</h3>
+            <div class="sns_slide">
+                <!-- Swiper -->
+                <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- 1 -->
+                            <div class="cover_wrap">
+                                <div class="cover">
+                                    <ul class="sns_icon">
+                                        <li><a href="#"><img src="images/main/section_6/heart.svg" alt="heart"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/comments.svg"
+                                                    alt="comments"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/send.svg" alt="send"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sns_img">
+                                    <img src="images/main/section_6/sns_1.png" alt="sns_1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- 2 -->
+                            <div class="cover_wrap">
+                                <div class="cover">
+                                    <ul class="sns_icon">
+                                        <li><a href="#"><img src="images/main/section_6/heart.svg" alt="heart"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/comments.svg"
+                                                    alt="comments"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/send.svg" alt="send"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sns_img">
+                                    <img src="images/main/section_6/sns_2.png" alt="sns_2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- 3 -->
+                            <div class="cover_wrap">
+                                <div class="cover">
+                                    <ul class="sns_icon">
+                                        <li><a href="#"><img src="images/main/section_6/heart.svg" alt="heart"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/comments.svg"
+                                                    alt="comments"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/send.svg" alt="send"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sns_img">
+                                    <img src="images/main/section_6/sns_3.png" alt="sns_3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- 4 -->
+                            <div class="cover_wrap">
+                                <div class="cover">
+                                    <ul class="sns_icon">
+                                        <li><a href="#"><img src="images/main/section_6/heart.svg" alt="heart"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/comments.svg"
+                                                    alt="comments"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/send.svg" alt="send"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sns_img">
+                                    <img src="images/main/section_6/sns_4.png" alt="sns_4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- 5 -->
+                            <div class="cover_wrap">
+                                <div class="cover">
+                                    <ul class="sns_icon">
+                                        <li><a href="#"><img src="images/main/section_6/heart.svg" alt="heart"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/comments.svg"
+                                                    alt="comments"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/send.svg" alt="send"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sns_img">
+                                    <img src="images/main/section_6/sns_5.png" alt="sns_5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- 6 -->
+                            <div class="cover_wrap">
+                                <div class="cover">
+                                    <ul class="sns_icon">
+                                        <li><a href="#"><img src="images/main/section_6/heart.svg" alt="heart"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/comments.svg"
+                                                    alt="comments"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/send.svg" alt="send"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sns_img">
+                                    <img src="images/main/section_6/sns_6.png" alt="sns_6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- 7 -->
+                            <div class="cover_wrap">
+                                <div class="cover">
+                                    <ul class="sns_icon">
+                                        <li><a href="#"><img src="images/main/section_6/heart.svg" alt="heart"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/comments.svg"
+                                                    alt="comments"></a></li>
+                                        <li><a href="#"><img src="images/main/section_6/send.svg" alt="send"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sns_img">
+                                    <img src="images/main/section_6/sns_7.png" alt="sns_7">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <!-- 배경색 -->
+            <div class="inner_footer">
+                <!-- 너비1320 -->
+                <div class="logo_wrap">
+                    <div>
+                        <a href="#"><img src="images/main/footer/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="footer_wrap">
+                    <div class="company_info_wrap">
+                        <div class="company_info">
+                            <p class="title">COMPANY INFO</p>
+                            <p>
+                                CEO: 이정은
+                                <br>Business Licencse: 770 - 45 - 23100
+                                <br>Address: 부산광역시 중구 중앙대로 26 다원중앙타워 10층
+                                <br>Email: lightbagel@gmail.com
+                            </p>
+                        </div>
+                        <div class="customer_service">
+                            <div class="title_wrap">
+                                <p class="title">고객센터</p>
+                                <p class="contact">051 - 245 - 1650</p>
+                            </div>
+                            <p>
+                                평일 09:00 - 18:00 (주말, 공휴일 제외)
+                                <br>점심시간 12:00 - 13:00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="more_info_wrap">
+                        <div class="more_info">
+                            <p class="title">MORE INFO</p>
+                            <ul>
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href="#">고객센터</a></li>
+                            </ul>
+                        </div>
+                        <div class="follow_us">
+                            <p class="title">FOLLOW US</p>
+                            <ul>
+                                <li><a href="#"><img src="images/main/footer/instagram.svg" alt="instagram"></a></li>
+                                <li><a href="#"><img src="images/main/footer/youtube.svg" alt="youtube"></a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>COPYRIGHT © LIGHT BAGEL All RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            autoplay: {     //자동슬라이드 (false-비활성화)
+                delay: 4000, // 시간 설정
+                disableOnInteraction: false, // false-스와이프 후 자동 재생
+            },
+            effect: "fade",
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper3", {
+            slidesPerView: 5,
+            spaceBetween: 22,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
