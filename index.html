@@ -14,11 +14,7 @@
     <link rel="stylesheet" href="css/main_style.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- AOS js -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -28,19 +24,19 @@
             <div class="position_box">
                 <div id="header">
                     <!-- 너비1320/가운데/포지션 -->
-                    <h1 class="logo"><a href="#"><img src="images/main/header/logo.png" alt="logo"></a></h1>
+                    <h1 class="logo"><a href="index.html"><img src="images/main/header/logo.png" alt="logo"></a></h1>
                     <div id="nav">
                         <ul class="gnb">
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">SHOP</a></li>
-                            <li><a href="#">EVENT</a></li>
-                            <li><a href="#">COMMUNITY</a></li>
+                            <li><a href="sub/sub1.html">ABOUT</a></li>
+                            <li><a href="sub/sub2.html">PRODUCT</a></li>
+                            <li><a href="sub/sub3.html">EVENT</a></li>
+                            <li><a href="sub/sub4.html">COMMUNITY</a></li>
                         </ul>
                     </div>
                     <ul class="util">
-                        <li><a href="#">로그인</a></li>
-                        <li><a href="#">회원가입</a></li>
-                        <li><a href="#"><img src="images/main/header/bag.svg" alt="bag_icon"></a></li>
+                        <li><a href="javascript:return false;">로그인</a></li>
+                        <li><a href="javascript:return false;">회원가입</a></li>
+                        <li><a href="javascript:return false;"><img src="images/main/header/bag.svg" alt="bag_icon"></a></li>
                     </ul>
                 </div>
             </div>
@@ -58,15 +54,23 @@
                                         <img src="images/main/main_banner/bagel.PNG" alt="bagel">
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="swiper-slide">
-                                <img src="images/main/main_banner/main_banner_2.png" />
+                            <div class="swiper-slide slide_1">
+                                <img src="images/main/main_banner/main_banner_1.png" />
+                                <div class="inner_banner">
+                                    <div class="bagel">
+                                        <img src="images/main/main_banner/bagel.PNG" alt="bagel">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="swiper-slide">
-                                <img src="images/main/main_banner/main_banner_3.png" />
+                            <div class="swiper-slide slide_1">
+                                <img src="images/main/main_banner/main_banner_1.png" />
+                                <div class="inner_banner">
+                                    <div class="bagel">
+                                        <img src="images/main/main_banner/bagel.PNG" alt="bagel">
+                                    </div>
+                                </div>
                             </div>
-
                         </div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
@@ -99,7 +103,7 @@
                         <br>라이트 베이글이 여러분의 일상에 작은 행복이 되길 바랍니다.
                     </p>
                     <div class="more_box">
-                        <a href="#">더 알아보기</a>
+                        <a href="sub/sub1.html">더 알아보기</a>
                     </div>
                     <div class="blueberry">
                         <img src="images/main/section_1/blueberry.png" alt="blueberry">
@@ -493,9 +497,9 @@
             <!-- 배경색 -->
             <div class="inner_footer">
                 <!-- 너비1320 -->
-                <div class="logo_wrap">
-                    <div>
-                        <a href="#"><img src="images/main/footer/logo.png" alt="logo"></a>
+                <div class="footer_logo_wrap">
+                    <div class="footer_logo">
+                        <a href="javascript:return false;"><img src="images/main/footer/footer_logo.png" alt="footer_logo"></a>
                     </div>
                 </div>
                 <div class="footer_wrap">
@@ -524,16 +528,16 @@
                         <div class="more_info">
                             <p class="title">MORE INFO</p>
                             <ul>
-                                <li><a href="#">이용약관</a></li>
-                                <li><a href="#">개인정보처리방침</a></li>
-                                <li><a href="#">고객센터</a></li>
+                                <li><a href="javascript:return false;">이용약관</a></li>
+                                <li><a href="javascript:return false;">개인정보처리방침</a></li>
+                                <li><a href="javascript:return false;">고객센터</a></li>
                             </ul>
                         </div>
                         <div class="follow_us">
                             <p class="title">FOLLOW US</p>
                             <ul>
-                                <li><a href="#"><img src="images/main/footer/instagram.svg" alt="instagram"></a></li>
-                                <li><a href="#"><img src="images/main/footer/youtube.svg" alt="youtube"></a></li>
+                                <li><a href="javascript:return false;"><img src="images/main/footer/instagram.svg" alt="instagram"></a></li>
+                                <li><a href="javascript:return false;"><img src="images/main/footer/youtube.svg" alt="youtube"></a></li>
 
                             </ul>
                         </div>
@@ -546,7 +550,14 @@
             </div>
         </div>
     </div>
+    
+   <!-- js -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+     <!-- AOS js -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

@@ -1,3 +1,5 @@
+@charset 'utf-8';
+
 @keyframes banner_bagel{
     0%{
         transform: rotate(2deg)
@@ -33,7 +35,7 @@
     }
 }
 
-@charset 'utf-8';
+
 
 /* webfont */
 
@@ -141,6 +143,7 @@ body {
 
 #wrap {
     min-width: 1380px;
+    overflow: hidden;
 }
 
 /* header_S */
@@ -155,7 +158,7 @@ body {
 }
 
 #header {
-    height: 100px;
+    height: 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,6 +168,11 @@ body {
     display: flex;
 }
 
+.logo img{
+    display: block;
+    width: 117px;
+    height: 84px;
+}
 .gnb,
 .util {
     display: flex;
@@ -179,7 +187,8 @@ body {
 .gnb li a {
     display: block;
     font-size: 14px;
-    color: #978479;
+    font-weight: 500;
+    color: #8d7c75;
     margin: 0 24px;
 }
 
@@ -190,6 +199,7 @@ body {
 .util li a {
     display: block;
     font-size: 13px;
+    font-weight: 500;
     color: #c9b39d;
     margin-right: 22px;
 }
@@ -217,7 +227,7 @@ body {
 }
 
 .swiper-pagination-bullet{
-    background: #816753 !important;
+    background: #8d7c75 !important;
 }
 
 .main_banner_slide .swiper {
@@ -243,12 +253,12 @@ body {
 
 .inner_banner{
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 50%;
     margin-left: -660px;
     z-index: 9;
     width: 1320px;
-    height: 770px;
+    height: 760px;
 }
 
 .bagel{
@@ -283,7 +293,7 @@ body {
 }
 
 h2 {
-    color: #80726a;
+    color: #8d7c75;
     font-family: 'Cafe24Ssurround';
     font-size: 26px;
 }
@@ -339,16 +349,16 @@ h2 {
 
 .more_box a {
     display: inline-block;
-    background-color: #b8a797;
+    background-color: #b9a48f;
     color: #fff;
     font-size: 14px;
-    padding: 10px 16px;
+    padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
 
 .more_box a:hover {
-    background-color: #877564;
+    background-color: #8d7c75;
 }
 
 .blueberry img {
@@ -533,14 +543,14 @@ h3 {
 }
 
 .event_text .more_box a {
-    background-color: #877564;
+    background-color: #8d7c75;
     margin-top: 90px;
     font-family: 'Pretendard Variable';
     font-weight: 400;
 }
 
 .event_text .more_box a:hover {
-    background-color: #b8a797;
+    background-color: #b9a48f;
 }
 
 /* section_3_E */
@@ -724,12 +734,13 @@ h3 {
 /* footer_S */
 
 #footer{
-    background-color: #92897D;
-    height: 400px;
+    background-color: #8D7C75;
+    height: 380px;
     width: 100%;
     color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .follow_us img{
@@ -749,23 +760,25 @@ h3 {
 }
 .copyright{
     width: 100%;
-    height: 50px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-top: 1px solid #fff;
 }
 
-.logo_wrap{
+.footer_logo_wrap{
     margin-right: 100px;
 }
 
-.logo_wrap img{
+.footer_logo img{
     display: block;
+    width: 130px;
+    height: 59px;
 }
 .inner_footer .title, .inner_footer .contact{
     font-size: 17px;
-    padding-bottom: 18px;
+    padding-bottom: 15px;
     font-family: 'NoonnuBasicGothicRegular';
     opacity: 1;
 }
@@ -784,7 +797,7 @@ h3 {
 }
 
 .more_info_wrap{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .more_info ul{

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1380">
+    <title>lightbagel</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- webfont -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="../css/sub4_style.css">
+    <!-- AOS js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1 class="logo"><a href="../index.html"><img src="../images/sub1/header/logo.png" alt="logo"></a></h1>
+            <div id="nav">
+                <ul class="gnb">
+                    <li><a href="sub1.html">ABOUT</a></li>
+                    <li><a href="sub2.html">PRODUCT</a></li>
+                    <li><a href="sub3.html">EVENT</a></li>
+                    <li><a href="sub4.html">COMMUNITY</a></li>
+                </ul>
+            </div>
+            <ul class="util">
+                <li><a href="javascript:return false;">로그인</a></li>
+                <li><a href="javascript:return false;">회원가입</a></li>
+                <li><a href="javascript:return false;"><img src="../images/main/header/bag.svg" alt="bag_icon"></a></li>
+            </ul>
+        </div>
+        <div id="banner">
+            <!-- 배경이미지/가운데/너비1920/높이670 -->
+
+
+            <div class="inner_banner" data-aos="fade-right" data-aos-duration="1500">
+                <!-- 가운데/너비1320/높이670 -->
+                <h3>COMMUNITY</h3>
+                <p>
+                    라이트 베이글의
+                    <br>다양한 소식들을 만나보세요!
+            </div>
+
+
+        </div>
+
+        <div id="section1">
+            <div class="sub_title">
+                <h2>Notice</h2>
+                <p>
+                    라이트 베이글의 공지사항입니다.
+                </p>
+            </div>
+            <div class="notice_form">
+                <div class="search_category">
+                    <span></span>
+                    <p class="notice_select" id="select">
+                        전체
+
+                    </p>
+                    <ul>
+                        <li>전체</li>
+                        <li onclick="option1()">제목</li>
+                        <li onclick="option2()">내용</li>
+                    </ul>
+                </div>
+                <p class="search_form">
+                    <input type="text" placeholder="검색어를 입력해주세요.">
+                </p>
+                <p class="search_btn">검색</p>
+            </div>
+            <div class="notice_list">
+                <ul class="notice_list_title">
+                    <li>NO</li>
+                    <li>제목</li>
+                    <li>작성일</li>
+                    <li>조회수</li>
+                </ul>
+                <ul>
+                    <li>5</li>
+                    <li>올리브영, 이마트 24 입점 제품 안내</li>
+                    <li>2025.01.10.</li>
+                    <li>50</li>
+                </ul>
+                <ul>
+                    <li>4</li>
+                    <li>신규 가입 & 첫 구매 혜택 안내</li>
+                    <li>2025.01.02.</li>
+                    <li>231</li>
+                </ul>
+                <ul>
+                    <li>3</li>
+                    <li>크리스마스 할인 이벤트 안내</li>
+                    <li>2024.12.20.</li>
+                    <li>720</li>
+                </ul>
+                <ul>
+                    <li>2</li>
+                    <li>2024 연말 배송 안내</li>
+                    <li>2024.12.15.</li>
+                    <li>1,006</li>
+                </ul>
+                <ul>
+                    <li>1</li>
+                    <li>신메뉴 출시 기념 무료 배송 이벤트 안내</li>
+                    <li>2024.11.30.</li>
+                    <li>854</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="section2">
+            <div class="sub_title">
+                <h2>FAQ</h2>
+                <p>
+                    자주하는 질문입니다.
+                </p>
+            </div>
+            <div class="notice_list">
+                <div class="question">
+                    <ul>
+                        <li>Q</li>
+                        <li>제품 및 배송 문의는 어디서 하나요?</li>
+                        <li>
+                            <span>
+                                <img src="../images/sub4/arrow2.svg" alt="arrow">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="anser">
+                    <ul>
+                        <li>A</li>
+                        <li>
+                            <p class="anser_content"><strong>라이트 베이글 카카오톡 채널</strong>로 문의주시면 순차적으로 안내해 드리겠습니다.</p>
+                            <p class="anser_detail">
+                                *상담 시간 : 09:00 - 18:00 (점심 시간 제외 12:00 - 13:00)
+                                <br>*카카오톡 채널명 : 라이트 베이글
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="notice_list">
+                <div class="question">
+                    <ul>
+                        <li>Q</li>
+                        <li>보관 방법이 어떻게 되나요?</li>
+                        <li>
+                            <span>
+                                <img src="../images/sub4/arrow2.svg" alt="arrow">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="anser">
+                    <ul>
+                        <li>A</li>
+                        <li>
+                            <p class="anser_content">라이트 베이글은 제품에 보존료를 일절 사용하지 않고
+                                <br>균증식을 억제하는 -18℃ 이하에서 급속 냉동 후 배송해드립니다.
+                                <br>최상의 품질과 신선도를 위해 배송 받으신 직후 반드시 냉동실에 보관해주세요.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="notice_list">
+                <div class="question">
+                    <ul>
+                        <li>Q</li>
+                        <li>소비 기한이 어떻게 되나요?</li>
+                        <li>
+                            <span>
+                                <img src="../images/sub4/arrow2.svg" alt="arrow">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="anser">
+                    <ul>
+                        <li>A</li>
+                        <li>
+                            <p class="anser_content">
+                                소비기한은 제품 전면의 <strong>별도 표시일</strong>을 확인해 주세요.
+                                <br><strong>최근 제조 상품</strong>으로 발송해 드립니다.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="notice_list">
+                <div class="question">
+                    <ul>
+                        <li>Q</li>
+                        <li>빵 겉면이 거칠어 보여요.</li>
+                        <li>
+                            <span>
+                                <img src="../images/sub4/arrow2.svg" alt="arrow">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="anser">
+                    <ul>
+                        <li>A</li>
+                        <li>
+                            <p class="anser_content">
+                                겉면이 거칠고 갈라져 보일 수 있으나,
+                                <br>이는 원재료인 대두단백 함량이 높아서 생기는 자연스러운 현상이에요.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="notice_list notice_list_last">
+                <div class="question">
+                    <ul>
+                        <li>Q</li>
+                        <li>먹는 방법이 궁금합니다.</li>
+                        <li>
+                            <span>
+                                <img src="../images/sub4/arrow2.svg" alt="arrow">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="anser">
+                    <ul>
+                        <li>A</li>
+                        <li>
+                            <p class="anser_content">
+                                <strong>에어프라이어 160℃ 10분 / 전자레인지 5분 / 프라이팬 약불에 앞 뒤로 10분</strong>
+                                <br>세 가지 방법 중 편하신 한 가지 방법으로 조리하시면
+                                <br>겉은 바삭, 속은 촉촉하게 드실 수 있습니다.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="section3">
+            <div class="sub_title">
+                <h2>Directions</h2>
+            </div>
+            <div class="location_wrap">
+                <div class="location">
+                    <h2>라이트 베이글 본사 오시는 길</h2>
+                    <ul>
+                        <li>주소</li>
+                        <li>부산광역시 중구 중앙대로 26 다원중앙타워 10층 </li>
+                    </ul>
+                    <ul>
+                        <li>Tel.</li>
+                        <li>051-245-1650</li>
+                    </ul>
+                    <ul>
+                        <li>Email</li>
+                        <li>lightbagel@gmail.com</li>
+                    </ul>
+                    <h3>대중교통</h3>
+                    <p>
+                        <strong>지하철</strong>
+                        <br>1호선 남포역 10번 출구, 광복지하쇼핑센터 6번 출구
+                        <br>1호선 중앙역 2번 출구
+                    </p>
+                    <p>
+                        <strong>버스</strong>
+                        <br>부산데파트 정류장 하차
+                        <br>5-1, 15, 17, 26, 27, 41, 59, 61, 70, 82, 85, 86, 87 88,
+                        <br>103, 126, 134, 171, 186, 190, 508, 1003
+                    </p>
+                </div>
+                <div class="location_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1632.1350512175882!2d129.03624178825396!3d35.099965758145686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568e9cb98007c4d%3A0xc41543dbde45b847!2z64uk7JuQ7KSR7JWZ7YOA7JuMIOu5jOuUqQ!5e0!3m2!1sko!2skr!4v1736926821386!5m2!1sko!2skr" width="611" height="466" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <!-- 배경색 -->
+            <div class="inner_footer">
+                <!-- 너비1320 -->
+                <div class="footer_logo_wrap">
+                    <div class="footer_logo">
+                        <a href="javascript:return false;"><img src="../images/sub1/footer/footer_logo.png"
+                                alt="footer_logo"></a>
+                    </div>
+                </div>
+                <div class="footer_wrap">
+                    <div class="company_info_wrap">
+                        <div class="company_info">
+                            <p class="title">COMPANY INFO</p>
+                            <p>
+                                CEO: 이정은
+                                <br>Business Licencse: 770 - 45 - 23100
+                                <br>Address: 부산광역시 중구 중앙대로 26 다원중앙타워 10층
+                                <br>Email: lightbagel@gmail.com
+                            </p>
+                        </div>
+                        <div class="customer_service">
+                            <div class="title_wrap">
+                                <p class="title">고객센터</p>
+                                <p class="contact">051 - 245 - 1650</p>
+                            </div>
+                            <p>
+                                평일 09:00 - 18:00 (주말, 공휴일 제외)
+                                <br>점심시간 12:00 - 13:00
+                            </p>
+                        </div>
+                    </div>
+                    <div class="more_info_wrap">
+                        <div class="more_info">
+                            <p class="title">MORE INFO</p>
+                            <ul>
+                                <li><a href="javascript:return false;">이용약관</a></li>
+                                <li><a href="javascript:return false;">개인정보처리방침</a></li>
+                                <li><a href="javascript:return false;">고객센터</a></li>
+                            </ul>
+                        </div>
+                        <div class="follow_us">
+                            <p class="title">FOLLOW US</p>
+                            <ul>
+                                <li><a href="javascript:return false;"><img src="../images/sub1/footer/instagram.svg"
+                                            alt="instagram"></a></li>
+                                <li><a href="javascript:return false;"><img src="../images/sub1/footer/youtube.svg"
+                                            alt="youtube"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>COPYRIGHT © LIGHT BAGEL All RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </div>
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/sub4_script.js"></script>
+</body>
+
+</html>
