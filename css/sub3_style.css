@@ -252,6 +252,7 @@ h3{
     width: 639px;
     height: 329px;
     overflow: hidden;
+    border-radius: 10px;
 }
 .event_img_wrap img{
     width: 100%;
