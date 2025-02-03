@@ -349,12 +349,11 @@ h2 {
     width: 984px;
     height: 546px;
     position: relative;
-    margin: 50px 0 70px;
+    margin: 50px 0 0;
 }
 .character_1 img, .character_2 img, .character_3 img{
     display: block;
-    width: 630px;
-    height: 222px;
+    width: 617px;
     position: absolute;
     z-index: 9;
 }
@@ -370,6 +369,11 @@ h2 {
 .character_3 img{
     bottom: 0;
     left: 0;
+}
+.character_4 img{
+    display: block;
+    width: 90px;
+    margin-bottom: 50px;
 }
 .text_wrap p{
     font-size: 19px;
@@ -397,7 +401,7 @@ h2 {
 #section_2{
     width: 1320px;
     margin: 0 auto;
-    padding: 40px 0 160px;
+    padding: 0 0 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -542,13 +546,20 @@ h2 {
     width: 217px;
 }
 .logo_wrap ul li:nth-child(1){
-    margin-right: 30px;
+    margin-right: 10px;
 }
+.logo_wrap ul:nth-child(1) img{
+    display: block;
+    width: 245px;
+}
+.logo_wrap ul:nth-child(2) img{
+    display: block;
+    width: 242px;
+}
+
 .logo_img_box{
     width: 386px;
     height: 223px;
-    background-color: #8d7c75;
-    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
