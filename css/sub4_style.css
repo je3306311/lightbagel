@@ -1,29 +1,5 @@
 @charset 'utf-8';
 
-@keyframes glitter_1{
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-@keyframes glitter_2{
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-
 /* webfont */
 
 @font-face {
@@ -127,6 +103,17 @@ body {
    min-width: 1380px;
 }
 
+.top_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 20;
+}
+.top_btn img{
+    display: block;
+    width: 70px;
+}
+
 /* header_S */
 
 #header {
@@ -189,7 +176,7 @@ body {
 /* banner_S */
 
 #banner{
-    background: #E9DDCD url(../images/sub4/banner_img.jpg) no-repeat center;
+    background: #E9DDCD url(../images/sub4/community_banner.png) no-repeat center;
     height: 670px;
     margin: 0 auto;
     position: relative;
@@ -221,6 +208,7 @@ body {
     padding-left: 70px;
     font-size: 23px;
     line-height: 1.5em;
+    color: #9C8576;
 }
 
 
@@ -237,15 +225,16 @@ body {
     text-align: center;
 }
 .sub_title h2 {
-    color: #665146;
+    color: #80726A;
     font-family: 'Cafe24Ssurround';
-    font-size: 20px;
+    font-size: 26px;
     text-align: center;
 }
 .sub_title p{
     font-family: 'NoonnuBasicGothicRegular';
-    font-size: 23px;
-    color: #9C8576;
+    font-size: 17px;
+    color: #858585;
+    font-weight: 100;
     margin: 46px 0 80px;
 }
 .notice_form{
@@ -255,13 +244,14 @@ body {
 .notice_form p{
     border: 1px solid #B3A8A3;
     border-radius: 20px;
-    padding: 8px 20px;
+    padding: 10px 20px;
     margin-left: 10px;
 }
 .search_category{
     position: relative;
     font-size: 16px;
     color: #8F8F8F;
+    font-weight: 500;
 }
 .notice_select{   
    cursor: pointer;
@@ -272,7 +262,7 @@ body {
    width: 20px;
    height: 10px;
    position: absolute;
-   top: 13px;
+   top: 15px;
    left: 124px;
    z-index: 9;
 }
@@ -291,33 +281,37 @@ body {
     background-color: #fff;
 }
 .search_category ul li{
-    padding: 8px 20px;
-    
+    padding: 10px 20px;
+    color: #B3A8A3;
+    font-weight: 500;
 }
 .search_category ul li:nth-child(1){
     background-color: #B3A8A3;
     border-radius: 18px 18px 0 0;
-    color: #fffa;
+    color: #fff;
 }
 .search_form input{
     border: none;
     outline: none;
     color: #8F8F8F;
+    font-size: 16px;
 }
 .notice_form p.search_btn{
-    padding: 8px 40px;
+    padding: 10px 40px;
     background-color: #B3A8A3;
     color: #fff;
     cursor: pointer;
+    font-size: 16px;
 }
 .turn{
     transform: rotate(180deg);
 }
 .notice_list{
     border-top: 3px solid #B3A8A3;
-    border-bottom: 2px solid #B3A8A3;
+    border-bottom: 1px solid #B3A8A3;
     margin-top: 22px;
     font-size: 19px;
+    font-weight: 500;
     color: #80726A;
 }
 .notice_list ul{
@@ -355,37 +349,38 @@ body {
     padding: 120px 0 100px;
     box-sizing: border-box;
 }
-.anser{
+.answer{
     background-color: #FFFAEC;
     font-size: 17px;
+    font-weight: 500;
     line-height: 24px;
 }
-.anser ul {
+.answer ul {
     padding: 26px 0 60px;
 }
 #section2 .notice_list{
-    border-bottom: none;
+    border: none;
 }
 .question ul{
+    border-top: 2px solid #B3A8A3;
     border-bottom: none;
 }
-.notice_list_last{
-    border-bottom: 3px solid #B3A8A3!important;
-}
 .question ul li:nth-child(1),
-.anser ul li:nth-child(1) {
+.answer ul li:nth-child(1) {
     font-size: 23px;
     font-weight: bold;
 }
 .question ul li:nth-child(2) {
     width: 82%;
+    font-weight: 500;
 }
 .question ul li:nth-child(3) {
     width: 8%;
 }
-.anser_detail{
+.answer_detail{
     font-size: 15px;
     margin-top: 30px;
+    font-weight: 500;
 }
 .turn{
     transform: rotate(180deg);
@@ -395,6 +390,12 @@ body {
 }
 #section2 .notice_list{
     margin-top: 0px;
+}
+.notice_list_first .question ul{
+    border-top: 3px solid #B3A8A3;
+}
+.notice_list_last .question ul{
+    border-bottom: 3px solid #B3A8A3;
 }
 
 /* section3 */
@@ -411,12 +412,12 @@ body {
     margin-top: 110px;
 }
 .location{
-    width: 410px;
+    width: 440px;
 }
 .location h2{
     font-family: 'NoonnuBasicGothicRegular';
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 100;
     color: #80726A;
     margin-bottom: 45px;
 }
@@ -433,7 +434,7 @@ body {
     font-weight: bold;
 }
 .location h3{
-    border-top: 2px solid #80726A;
+    border-top: 1px solid #80726A;
     margin-top: 16px;
     padding-top: 34px;
     font-size: 19px;

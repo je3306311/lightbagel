@@ -18,7 +18,7 @@ function option2(){
 
 // 게시판
 
-$(".anser").hide();
+$(".answer").hide();
 $(".question").click(function(){
     $(this).next().slideToggle();
 });

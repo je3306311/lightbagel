@@ -126,6 +126,16 @@ body {
 #wrap {
    min-width: 1380px;
 }
+.top_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 20;
+}
+.top_btn img{
+    display: block;
+    width: 70px;
+}
 
 /* header_S */
 

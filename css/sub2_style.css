@@ -1,29 +1,5 @@
 @charset 'utf-8';
 
-@keyframes glitter_1{
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-@keyframes glitter_2{
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-
 /* webfont */
 
 @font-face {
@@ -125,6 +101,17 @@ body {
 
 #wrap {
    min-width: 1380px;
+}
+
+.top_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 20;
+}
+.top_btn img{
+    display: block;
+    width: 70px;
 }
 
 .position_box{
